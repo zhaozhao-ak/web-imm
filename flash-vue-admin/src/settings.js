@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'web-flash Admin',
+  title: '皇室采耳智能管理系統',
 
   /**
    * @type {boolean} true | false

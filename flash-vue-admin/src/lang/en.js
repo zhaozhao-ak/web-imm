@@ -39,7 +39,7 @@ export default {
     size: 'Global Size'
   },
   login: {
-    title: 'web-flash',
+    title: '皇室采耳智能管理系統',
     errorAccount: 'Please enter the correct user name',
     errorPassword: 'The password can not be less than 5 digits',
     logIn: 'Log in',
