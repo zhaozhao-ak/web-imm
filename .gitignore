@@ -1,0 +1,25 @@
+*.iml
+**/target
+**/node_modules
+
+.idea
+node_modules
+npm-debug.log
+package-lock.json
+
+docs/.vuepress/dist
+**/dist
+.classpath
+.factorypath
+.vscode
+.settings
+.project
+vue-element-admin/
+vue-admin-template/
+vue-admin-template-tabnav/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+out
+gen
