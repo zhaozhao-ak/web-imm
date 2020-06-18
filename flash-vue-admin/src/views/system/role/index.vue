@@ -21,7 +21,6 @@
       </el-row>
     </div>
 
-
     <el-table :data="list" v-loading="listLoading" element-loading-text="Loading" border fit highlight-current-row
               @current-change="handleCurrentChange">
 
@@ -47,7 +46,6 @@
       </el-table-column>
 
     </el-table>
-
 
     <el-pagination
       background
@@ -124,7 +122,6 @@
             </el-form-item>
           </el-col>
 
-
         </el-row>
         <el-form-item>
           <el-button type="primary" @click="save">{{ $t('button.submit') }}</el-button>
@@ -132,7 +129,6 @@
         </el-form-item>
       </el-form>
     </el-dialog>
-
 
     <el-dialog
       title="权限配置"
