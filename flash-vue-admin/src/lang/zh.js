@@ -1,6 +1,6 @@
 export default {
   route: {
-    dashboard: '首页',
+    dashboard: '主页',
     system: '系统管理',
     operationMgr: '运维管理',
     cms: 'CMS管理',
