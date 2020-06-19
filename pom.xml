@@ -8,6 +8,7 @@
     <artifactId>web-flash</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <name>imm</name>
     <modules>
         <module>flash-api</module>
         <module>flash-core</module>
