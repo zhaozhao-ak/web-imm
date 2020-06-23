@@ -5,7 +5,7 @@
     <div class="main-container">
       <div :class="{'fixed-header':fixedHeader}">
         <navbar />
-        <!-- <tags-view v-if="needTagsView" /> -->
+         <tags-view v-if="needTagsView" />
       </div>
       <app-main />
     </div>
@@ -56,8 +56,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import "~@/styles/mixin.scss";
-  @import "~@/styles/variables.scss";
+  @import "../styles/mixin.scss";
+  @import "../styles/variables.scss";
 
   .app-wrapper {
     @include clearfix;
