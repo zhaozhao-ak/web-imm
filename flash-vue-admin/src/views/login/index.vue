@@ -1,11 +1,10 @@
 <template>
-  <div class="login-container"  style=" background-image: url(./img/immbg.jpg);">
+  <div class="login-container"  style=" background-image: url(./img/bg.jpg);">
 
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
 
       <div class="title-container">
         <h3 class="title">{{ $t('login.title') }}</h3>
-        <lang-select class="set-language"/>
       </div>
 
       <el-form-item prop="username">
@@ -39,7 +38,7 @@
 
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">{{ $t('login.logIn') }}</el-button>
 
-      <div style="position:relative">
+      <div style="position:relative;display: none">
         <div class="tips">
           <span>{{ $t('login.username') }} : admin</span>
           <span>{{ $t('login.password') }} : admin</span>

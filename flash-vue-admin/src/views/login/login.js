@@ -1,9 +1,7 @@
 
 import { isvalidUsername } from '@/utils/validate'
-import LangSelect from '@/components/LangSelect'
 export default {
   name: 'login',
-  components: { LangSelect },
   data() {
     const validateUsername = (rule, value, callback) => {
       if (!isvalidUsername(value)) {
