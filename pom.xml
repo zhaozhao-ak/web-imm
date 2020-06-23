@@ -11,8 +11,8 @@
     <name>imm</name>
     <modules>
         <module>imm-api</module>
-        <module>flash-core</module>
-        <module>flash-generator</module>
+        <module>imm-core</module>
+        <module>imm-generator</module>
     </modules>
 
     <properties>
