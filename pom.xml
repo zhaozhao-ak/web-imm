@@ -10,7 +10,7 @@
     <version>1.0</version>
     <name>imm</name>
     <modules>
-        <module>flash-api</module>
+        <module>imm-api</module>
         <module>flash-core</module>
         <module>flash-generator</module>
     </modules>
